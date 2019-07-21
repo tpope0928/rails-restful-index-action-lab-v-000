@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  resources :students, only: :index
+  get 'students', to: 'student#index'
+  get 'index', to: 'student#index'
 end
