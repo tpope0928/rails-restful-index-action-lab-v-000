@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  get 'students', to: 'student#index'
-  get 'index', to: 'student#index'
-end
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html	  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routin g.html
+  get '/students', to: 'students#index'
+
+ end	end
